@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Link, Route, Routes} from "react-router-dom";
 import initScrollReveal from "./scripts/scrollReveal";
 import initTiltEffect from "./scripts/tiltAnimation";
 import { targetElements, defaultProps } from "./data/scrollRevealConfig";
@@ -48,6 +49,59 @@ class EventJSON extends React.Component {
     }
 }
 
+class JsonLink extends React.Component {
+
+    onDownload(){
+        console.log(this);
+        this.download("test.json", "application/json");
+    }
+
+    download = (fileName, contentType) => {
+        const json = jsonDefinition;
+        console.log();
+        const a = document.createElement("a");
+        const file = new Blob([], { type: contentType });
+        a.href = URL.createObjectURL(file);
+        a.download = fileName;
+        a.click();
+    }
+
+    jsonFileDownload() {
+        const json_data = {
+            name: "Dedar",
+            age: "14",
+            address: "House #28",
+        };
+        const fileName = "finename.json";
+        //const data = new Blob([JSON.stringify({})], { type: "text/json" });
+        const jsonURL = "./assets/test";//window.URL.createObjectURL(data);
+        const link = document.createElement("a");
+        document.body.appendChild(link);
+        link.href = jsonURL;
+        link.setAttribute("download", fileName);
+        //link.click();
+        document.body.removeChild(link);
+    };
+
+    render() {
+        return (
+            <div>
+                <>
+                    <h2>Download JSON File</h2>
+                    <button onClick={() => {this.onDownload()}} >Download JSON File</button>
+                    <a
+                        rel='noreferrer'
+                        target="_blank"
+                        className="cta-btn cta-btn--hero"
+                        href="./assets/training_definition-id25.json">
+                        JSON file
+                    </a>
+                </>
+            </div>
+        );
+    }
+}
+
 const SingleEvent = (event) => {
     return (
     <ReactJson src={event.event}
@@ -67,4 +121,9 @@ ReactDOM.render(
 ReactDOM.render(
     <EventJSON />,
     document.getElementById('event-json')
+);
+
+ReactDOM.render(
+    <JsonLink />,
+    document.getElementById('link-json')
 );
