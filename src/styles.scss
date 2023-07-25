@@ -16,3 +16,46 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+body {
+  text-align: initial;
+}
+
+p, table {
+  font-size: 1.5rem;
+}
+
+table th {
+  font-weight: bold;
+}
+
+.react-json-view, .data-type-label {
+  font-size: 1.15rem !important;
+}
+
+p.hero-cta {
+  font-size: 20px;
+  font-style: italic;
+}
+
+#about p.note {
+  font-size: 1.3rem;
+}
+
+#contact {
+  background-image: linear-gradient(0deg, #fff 0%, #90c5bd 100%);
+  color: black;
+  padding-bottom: 0;
+}
+#contact .contact-wrapper__text, #contact .contact-wrapper a {
+  font-size: 1.6rem;
+}
+
+#data img {
+  display: block;
+  margin: 0 auto;
+}
+
+#data .contact-wrapper__text {
+  font-size: 2.4rem;
+}

@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>#EAIT-D-23-01516 [anonymous submission]</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="education and information technologies journal publication" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="[anonymous submission] #EAIT-D-23-01516" />
 
     <link
       rel="stylesheet"
@@ -40,19 +40,26 @@
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
+  <div id="root">
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          <!--Hi, my name is <span class="text-color-main">Your Name</span>
           <br />
-          I'm the Unknown Developer.
+          I'm the Unknown Developer.-->
+          Using Data Clustering to Reveal Trainees’
+          <br />
+          Behavior in Cybersecurity Education
         </h1>
         <p class="hero-cta load-hidden">
+          Submission #EAIT-D-23-01516
+        </p>
+        <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >Supplementary materials</a
           >
         </p>
       </div>
@@ -62,39 +69,35 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">Supplementary materials</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/profile.jpg"
-                alt="Profile Image"
-              />
+              <p>
+                Welcome to the supplementary materials for the paper <b>Using Data Clustering to Reveal Trainees’ Behavior in Cybersecurity Education</b>. This website serves as an interactive signpost to the materials provided with the submission. Some of the links and references are unavailable due to the anonymization policy of the paper review process.
+              </p>
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
+              <!--<p class="about-wrapper__info-text">
+
+              </p>-->
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
-              </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                The implementation tied to this submission is available in a repository as an open source, under the MIT licence.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
-                  target="_blank"
+                  target="_self"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="#about"
                 >
-                  View Resume
+                  Source Code *
                 </a>
               </span>
+              <br/>
+              <p class="note">* references hidden due to the review process</p>
             </div>
           </div>
         </div>
@@ -106,55 +109,37 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Dataset Examples</h2>
 
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Training Definition Example</h3>
                 <div>
-                  <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
-                  </p>
+                  <p class="mb-4">The JSON of training definition serves as the main outline of the tasks and content of a training. It includes assignments, hints, solutions, and the grading.</p>
+                </div>
+                <div>
                 </div>
                 <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
+                        rel="noreferrer"
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="./assets/training_definition-id25.json">
+                  JSON file
                 </a>
-                <a
+               <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="#!"
-                >
-                  Source Code
-                </a>
+                > Source Code </a>-->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
+                    <div id="json"></div>
                   </div>
-                </a>
               </div>
             </div>
           </div>
@@ -164,48 +149,32 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Training Events Example</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    The generated anonymized events of individual trainees are also stored as JSONs. In this example, we show the first five events generated by a single trainee. For a full trainee event log, we provide a complete file for download.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
+                  href="./assets/training_run-id210-events.txt">
+                  JSONs file
                 </a>
-                <a
+                <!--<a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
                   href="#!"
                 >
                   Source Code
-                </a>
+                </a>-->
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
+                    <div id="event-json"></div>
                 </a>
               </div>
             </div>
@@ -213,54 +182,6 @@
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
           <!-- /END Project -->
         </div>
       </div>
@@ -270,19 +191,88 @@
     <!-- **** Contact Section **** -->
     <section id="contact">
       <div class="container">
-        <h2 class="section-title">Contact</h2>
+        <h2 class="section-title">Evaluation Details</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <!--<p class="contact-wrapper__text">[...]</p>-->
+          <span class="contact-wrapper__text">Participants</span>
           <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
-          >
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="./assets/clustering_questionaires_demography.csv"
+          > demography data </a>
+          <span class="contact-wrapper__text">from the questionnaires.</span>
+
+          <br/>
+
+          <span class="contact-wrapper__text">The results of </span>
+          <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="assets/clustering_questionaires_seq.csv"> SEQ </a>
+          <span class="contact-wrapper__text">and</span>
+          <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="assets/clustering_questionaires_sus.csv"> SUS </a>
+          <span class="contact-wrapper__text"> from questionnaires answers.</span>
+
+          <br/>
+
+          <span class="contact-wrapper__text">The summary of </span>
+          <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="assets/clustering_questionaires_results_summary_discussion.csv"> answers to individual tasks </a>
         </div>
       </div>
     </section>
+
+  <section id="data">
+    <div class="container">
+    <p class="contact-wrapper__text">SUS Questionnaire Data Plot</p>
+
+    <img src="./assets/img/sus.png" width="90%"/>
+
+      <br/>
+      <p class="contact-wrapper__text" style="margin-top: 2rem">SEQ Questionnaire Data Plot</p>
+      <img src="./assets/img/Boxplot.svg" width="70%"/>
+
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">Task 1</th>
+          <td>In the ‘Wrong flags per time played’ view, identify the most appropriate elbow method number in the helper elbow chart.</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 2</th>
+          <td>In the 'Wrong flags per time played' view (for all levels), do you see any suspicious trainees? Why/why not? If so, what is the trainee ID?</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 3</th>
+          <td>In the 'Wrong flags per time played' view (for level 5), what could the results imply regarding the level design?</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 4</th>
+          <td>In the 'Time spent after using the hint' view (for all levels), what does the point distribution suggest? Does it imply a good training design or bad?</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 5</th>
+          <td>In the 'Radar chart' (for all levels),  are there any clusters that represent distinct strategies but share similar training success?</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 6</th>
+          <td>In the 'Radar chart' (for all levels), are there any possible outliers?</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 7</th>
+          <td>In the 'Radar chart', how variable is overall success of the trainees across the clusters?</td>
+        </tr>
+        <tr>
+          <th scope="row">Task 8</th>
+          <td>In the dataset of 'Hacking Day Cyber Task Force Delta' (all levels), which strategy (which cluster of trainees) was the most successful?</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
     <!-- /END Contact Section -->
 
     <!-- **** Footer Section **** -->
@@ -291,55 +281,20 @@
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
 
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Template developed by
+          © 2023 - Template developed by
           <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
             >Jacobo Martínez</a
           >
         </p>
 
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
 
     <script defer type="module" src="index.js"></script>
+  </div>
   </body>
 </html>

@@ -1,0 +1,117 @@
+,"Task 1: In the ‘Wrong flags per time played’ view, identify the most appropriate elbow method number in the helper elbow chart. "
+P1 ,4
+P2 ,3-4
+P3 ,3 or 5
+P4 ,6
+P5,5
+P6,5-9
+P7 ,6
+P8 ,5
+P9 ,5
+remarks:,"- All Ps decoded the line chart purpose correctly. The task demanded that the number is selected without using the remaining views, to see if the answers will vary. 
+- Several Ps (P6, P7, P8) then checked the number according to the other related views
+- P2, P3 and P6 suggested a range of values, from which they would then select a specific value based on other criteria (or for which they would try to see different results)
+- The most frequent value was 5 (mean value is 5,05, median 5)"
+,
+,"Task 2: In the 'Wrong flags per time played' view (for all levels), do you see any suspicious trainees? Why/why not? If so, what is the trainee ID? "
+P1 ,"30, 42, 50"
+P2 ,nope
+P3 ,"30, and for example 42, 50"
+P4 ,"53, 42 they submitted the wrong flags at the same time which is suspicious"
+P5,50
+P6,ID 50
+P7 ,50
+P8 ,"32,15,50"
+P9 ,50
+remarks:,"- Majority of participants (7) noticed the trainee 50, who is suspicious due to very high number of flags per relatively short time. 
+- One participant (P7) noted he didn't see the suspicious trainee 50 at first, because the chart boundaries are not clearly visible, so he concentrated on the highest density of dots. 
+- 30, and 42/50 were reported since they submitted a large amount of flags and played for a relatively short time (compared to the rest)
+- 32, 15 -- they do not fit into their respective clusters, but do not have any significantly arbitrary/unusual values
+- 53, 42/50  were noticed because they submitted the same number of flags and played for the same amount of time, so they are suspicious - possible cheaters
+- in general, the Ps were mostly looking for dots in the outer perimeter of graph or for dots that overlap"
+,
+,"Task 3: In the 'Wrong flags per time played' view (for level 5), what could the results imply regarding the level design?"
+P1 ,don't know
+P2 ,too easy
+P3 ,"Based on this information only, the level seems to be more or less balanced"
+P4 ,all the IDs submitted the correct flag except the ID 50. This may mean that the level is easy and all are fine with it
+P5,"Level easy for a few, hard for others"
+P6,"I don't know if the level is trivial, but I know it's manageable (relative scale)"
+P7 ,"No false flags submited (only one person, but this is for all levels)."
+P8 ,normal distribution of players by type - typical ctf player vs. normal human
+P9 ,Straightforward assignment
+remarks:,"- the answers more or less depended on how the Ps percieved the specifics of level design in general
+- majority percieves the level as quite easy and it is a good sign for them (straigtforward and balanced assignment). The trainees take the time, but many submit a correct flag without guessing or strugling to submit it in a correct form
+- good level design was mostly defined as one, where the dots are adjacent to the y-axis (low number of wrong flags) and the level time is not too high (not visible in the current graph -- a time estimate could help)"
+,
+,"Task 4: In the 'Time spent after using the hint' view (for all levels), what does the point distribution suggest? Does it imply a good training design or bad?"
+P1 ,rather good
+P2 ,good design
+P3 ,The hint was not useful for all trainees
+P4 ,It shows the time and the number of wrong flags submitted after a hint. this would help us identify the quality of the hint and if it really make the exercises easier for the participant. It is a good design ( many correct flags)
+P5,"Using hint led to fast completion of level without wrong flag for majority of players. For some the hints did't help, so maybe the game could provide more hints for the strugglers."
+P6,"good design, hint useful, mixed cluster of able with ""shooters"""
+P7 ,The hint was helpful but not for everyone (they still need some time to solve the level).
+P8 ,"I would consider redoing the hints, at least it would lead me to a closer analysis"
+P9 ,The overall hints were appropriately chosen (close to the X-axis horizontally evenly distributed - only a few negative flags after their display). The points on the Y-axis indicate /hypothesis/ that some of the hints could be a bit confusing.
+remarks:,"- all Ps decided the level design is rather good -- the graph shows that after using the hint, majority of players were able to solve the level without too many wrong flags
+- many Ps (5) would however analyze the hints further, because some seem to be less useful for some trainees
+- the Ps agree that good design (related to hint usage) is denoted by high dot concentration on the bottom side (close to the x-axis), which suggests that once displaying the hint, there were not many successive wrong flags -> the hint was helpful"
+,
+,"Task 5: In the 'Behavior correlation chart' (for all levels),  are there any clusters that represent distinct strategies but share similar training success?"
+P1 ,don't know
+P2 ,yes
+P3 ,Purple and light red for K=5 clusters
+P4 ,"blue and orange, also n=1 / n=12"
+P5,"There are two groups with similar result. One tried to solve the game using a long time with low success. The other used hits and when stuck, just gave up and skipped level."
+P6,purple and blue (5 in total) -- 1st group (try to pass independently) to 2nd group (think about the hints).
+P7 ,"Clusters purple, orange, and blue share the number of points but other values are distinct. "
+P8 ,n1 a n8 cluster are groups of succesful
+P9 ,"5,6 (maximam time after hint, ""unsucessful"" results)"
+remarks:,"- P1 was able to understand the chart, but could not find the clusters
+- Majority of Ps rated this first radar-chart-related task as more difficult, but all the succeeding as easier. This suggests that after getting familiar with the charts in general, the users find them easier to decode for additional information 
+- the answers differ, "
+,
+,"Task 6: In the 'Behavior correlation chart' (for all levels), are there any possible outliers?"
+P1 ,two clusters with n=2
+P2 ,yep
+P3 ,Orange cluster has n=1 or n=2 trainees
+P4 ,"I can say 1 and 12, N=1 since he is having wrong answers with no scores, and n=12 since they are having high scores with low number of hints ."
+P5,yes
+P6,cluster c. 1 (strelec) ALE nedeterministicke vysledky
+P7 ,Yellow cluster with one player.
+P8 ,cluser n1 
+P9 ,"yes, in cluster 1"
+remarks:,"- majority of Ps (8) were looking for clusters with small number of participants, that moreover have outstanding data
+- cluster with n=1 was the most frequently selected, some also considered one with n=2
+- unexpected - one participant (P4) selected also a large cluster with n=12, because it showed unusual behavior from her perspective (high scores, low number of hints) "
+,
+,"Task 7: In the 'Behavior correlation chart', how variable is overal success of the trainees accross the clusters? "
+P1 ,much variable
+P2 ,quite a lot
+P3 ,"If success is represented by the total score, then most clusters have similar score -- not too variable"
+P4 ,it varies but I find n=12 and 3 having the best performance 
+P5,the success vary a lot between the selected groups
+P6,"one extraordinary group, the others not much"
+P7 ,"There are four main groups: ""normal"" clusters from T5,  best (red cluster),  bad (brown), and one with player that didnt play the game correctly."
+P8 ,two groups of people with different levels of knowledge and ability to play the game
+P9 ,the results are rather variable (score total a time played)
+remarks:,"- task used to get Ps remarks on overal interppretation of results. 
+- in general, most Ps ranked two groups of trainees. Majority who didn't perform too well and one group who was a lot more successful.
+- many Ps (6) described the clusters as very variable with different results. This implies they chose the right number of clusers for analysis.
+- P7 described 4 groups - normal, good, bad, unusual - he used the total score as a measure.
+- P3 measured the success by the whole 'total score' axis length instead of comparing the clusters and thus found the success variability lower. The rest of Ps compared the clusters in relative scale between each other"
+,
+,"Task 8: In the dataset of 'Hacking Day Cyber Task Force Delta' (all levels), determine which strategy (which cluster of trainees) was the most successful? "
+P1 ,light blue cluster with n=2 (high score and time played)
+P2 ,knowledge of the subject
+P3 ,Red because of highest score and least wrong answers submitted
+P4 ,yellow and red 
+P5,the blue cluster
+P6,"Cluster n.2 (purple) -- fast, reasonable time, minimal wrong answers and guessing"
+P7 ,The blue one cluster (elbow 4).
+P8 ,first and last
+P9 ,orange
+remarks:,"- results are quite overlaping, majority reported the same clusters
+- some players reported two most similar clusters, that only differed by number of wring flags and slightly different total time.
+- here, most compared success by score x time, because there were two very similar clusters, but one had slightly lower time than the other. Here, some Ps ignored the high number of flags as a factor that lowers the success rate."

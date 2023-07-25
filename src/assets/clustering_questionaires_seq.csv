@@ -1,0 +1,11 @@
+"Task 1: In the ‘Wrong flags per time played’ view, identify the most appropriate elbow method number in the helper elbow chart. ","Task 2: In the 'Wrong flags per time played' view (for all levels), do you see any suspicious trainees? Why/why not? If so, what is the trainee ID? ","Task 3: In the 'Wrong flags per time played' view (for level 5), what could the results imply regarding the level design?","Task 4: In the 'Time spent after using the hint' view (for all levels), what does the point distribution suggest? Does it imply a good training design or bad?","Task 5: In the 'Behavior correlation chart' (for all levels),  are there any clusters that represent distinct strategies but share similar training success ?","Task 6: In the 'Behavior correlation chart' (for all levels), are there any possible outliers ?","Task 7: In the 'Behavior correlation chart', how variable is overal success of the trainees accross the clusters? ","Task 8: In the dataset of 'Hacking Day Cyber Task Force Delta' (all levels), determine which strategy (which cluster of trainees) was the most successful? "
+5,7,1,3,1,6,5,6
+4,2,6,6,3,6,5,5
+6,5,5,5,4,5,5,6
+4,2,5,6,1,2,5,6
+3,7,4,2,6,7,7,7
+7,7,7,6,4,5,6,7
+7,6,7,5,4,7,7,7
+4,5,4,3,3,7,5,4
+7,7,7,5,6,7,6,6
+
